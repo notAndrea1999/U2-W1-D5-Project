@@ -327,13 +327,21 @@ aside a {
     flex-direction: column;
   }
 
+  .articles {
+  }
+
   aside {
     order: -1;
     position: static;
     width: 100%;
   }
 
+  aside ul {
+    padding-bottom: 60px;
+  }
+
   .news-2 {
-    margin-inline: -55%;
+    width: 286%;
+    margin-inline: -50%;
   }
 }
