@@ -333,11 +333,21 @@ aside a {
   aside {
     order: -1;
     position: static;
-    width: 100%;
+    width: 150%;
+    margin-inline: -28%;
   }
 
   aside ul {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+  }
+
+  .all-buttons button {
+    padding-block: 10px;
+    border-radius: 0;
+    border: 1px solid rgba(128, 128, 128, 0.13);
+    margin: 5px 5px;
+    background-color: transparent;
+    color: grey;
   }
 
   .news-2 {
